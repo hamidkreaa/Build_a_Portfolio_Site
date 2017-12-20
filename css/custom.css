@@ -1,14 +1,12 @@
 /*
     DEMO STYLE
 */
-@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+@import (https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700);
 
 
 body {
     font-family: 'Poppins', sans-serif;
-    background: #fafafa;
-    
-   
+    background: #fafafa; 
 }
 
 p {
@@ -47,6 +45,16 @@ a, a:hover, a:focus {
     margin: 40px 0;
 }
 
+.footer {
+	background-color: #e3f2fd;
+	max-width: 960px;
+	text-align:center;
+}
+
+.container{
+	max-width: 710px;
+}
+
 /* ---------------------------------------------------
     SIDEBAR STYLE
 ----------------------------------------------------- */
@@ -54,7 +62,6 @@ a, a:hover, a:focus {
     display: flex;
     align-items: stretch;
     max-width: 960px;
-
 }
 
 #sidebar {
@@ -99,7 +106,6 @@ a, a:hover, a:focus {
     background: #6d7fcc;
 }
 
-
 a[data-toggle="collapse"] {
     position: relative;
 }
@@ -112,6 +118,7 @@ a[aria-expanded="false"]::before, a[aria-expanded="true"]::before {
     font-family: 'Glyphicons Halflings';
     font-size: 0.6em;
 }
+
 a[aria-expanded="true"]::before {
     content: '\e260';
 }
@@ -151,8 +158,7 @@ a.article, a.article:hover {
 #content {
     padding: 20px;
     min-height: 100vh;
-    transition: all 0.3s;
-    
+    transition: all 0.3s;  
 }
 
 /* ---------------------------------------------------
